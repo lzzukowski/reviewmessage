@@ -1,0 +1,21 @@
+#Thu Oct 16 23:26:20 CEST 2014
+s5=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar\!/
+s4=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar\!/
+s3=jar\:file\:/home/zulk/bin/netbeans-8.0/ide/jsstubs/corestubs.zip\!/
+s19=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar\!/
+s2=jar\:file\:/home/zulk/bin/netbeans-8.0/ide/jsstubs/domstubs.zip\!/
+s18=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar\!/
+s1=jar\:file\:/home/zulk/bin/netbeans-8.0/ide/jsstubs/reststubs.zip\!/
+s17=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar\!/
+s16=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar\!/
+s15=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar\!/
+s14=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar\!/
+s13=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar\!/
+s12=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar\!/
+s11=file\:/usr/lib/jvm/java-8-oracle/jre/classes/
+s10=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar\!/
+s20=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar\!/
+s9=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar\!/
+s8=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar\!/
+s7=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar\!/
+s6=jar\:file\:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar\!/

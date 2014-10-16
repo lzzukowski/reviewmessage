@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Bugtracking">
+            <file name="pl-zz-NbComunicator-StartColaboration.instance">
+                <!--pl.zz.NbComunicator.StartColaboration-->
+                <attr
+                    bundlevalue="pl.zz.NbComunicator.Bundle#CTL_StartColaboration" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="pl.zz.NbComunicator.StartColaboration"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="pl-zz-NbComunicator-SendToReview.instance">
+                <!--pl.zz.NbComunicator.SendToReview-->
+                <attr
+                    bundlevalue="pl.zz.NbComunicator.Bundle#CTL_SendToReview" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="pl.zz.NbComunicator.SendToReview"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="pl-zz-NbComunicator-ComViewTopComponent.instance">
+                <!--pl.zz.NbComunicator.ComViewTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="pl.zz.NbComunicator.ComViewTopComponent"/>
+                <attr name="preferredID" stringvalue="ComViewTopComponent"/>
+                <attr
+                    bundlevalue="pl.zz.NbComunicator.Bundle#CTL_ComViewAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="File">
+            <file name="pl-zz-NbComunicator-StartColaboration.shadow">
+                <!--pl.zz.NbComunicator.StartColaboration-->
+                <attr name="originalFile" stringvalue="Actions/Bugtracking/pl-zz-NbComunicator-StartColaboration.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+            <file name="pl-zz-NbComunicator-SendToReview.shadow">
+                <!--pl.zz.NbComunicator.SendToReview-->
+                <attr name="originalFile" stringvalue="Actions/Bugtracking/pl-zz-NbComunicator-SendToReview.instance"/>
+                <attr intvalue="-100" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="pl-zz-NbComunicator-ComViewTopComponent.shadow">
+                <!--pl.zz.NbComunicator.ComViewTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/pl-zz-NbComunicator-ComViewTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="pl_zz_NbComunicator">
+                <file name="ComView" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--pl.zz.NbComunicator.ComViewTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//pl.zz.NbComunicator//ComView//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="pl">
+                <folder name="zz">
+                    <folder name="NbComunicator">
+                        <file name="ComViewTopComponent">
+                            <!--pl.zz.NbComunicator.ComViewTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//pl_zz_NbComunicator/ComView.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="pl_zz_NbComunicator">
+                <file name="ComView.instance">
+                    <!--pl.zz.NbComunicator.ComViewTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="pl.zz.NbComunicator.ComViewTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="pl.zz.NbComunicator.ComViewTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ComViewTopComponent.settings">
+                <!--pl.zz.NbComunicator.ComViewTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="pl.zz.NbComunicator.ComViewTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="navigator">
+                <file name="ComViewTopComponent.wstcref">
+                    <!--pl.zz.NbComunicator.ComViewTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ComViewTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

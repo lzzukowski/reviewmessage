@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="pl.zz.NbComunicator">
+    <module_version install_time="1413494832828" last="true" origin="installer" specification_version="1.0">
+        <file crc="4173511888" name="config/Modules/pl-zz-NbComunicator.xml"/>
+        <file crc="4065593653" name="modules/ext/hazelcast-3.2.3.jar"/>
+        <file crc="3772157511" name="modules/ext/jackson-annotations-2.2.2.jar"/>
+        <file crc="4240430135" name="modules/ext/jackson-core-2.2.2.jar"/>
+        <file crc="2734855115" name="modules/ext/jackson-databind-2.2.2.jar"/>
+        <file crc="3597831373" name="modules/ext/netty-all-4.0.20.Final.jar"/>
+        <file crc="87028021" name="modules/ext/vertx-core-2.1.2.jar"/>
+        <file crc="978612940" name="modules/ext/vertx-hazelcast-2.1.2.jar"/>
+        <file crc="1800357877" name="modules/ext/vertx-platform-2.1.2.jar"/>
+        <file crc="513240420" name="modules/pl-zz-NbComunicator.jar"/>
+    </module_version>
+</module>
